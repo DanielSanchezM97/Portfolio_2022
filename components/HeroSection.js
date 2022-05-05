@@ -20,13 +20,13 @@ const HeroSection = () => {
             <div className={styles.flipCard}>
               <div className={styles.flipCardInner}>
                 <div className={styles.flipCardFront}>
-                  <Image
-                    // src="/images/FotoMia1.jpg"
+                  {/* <Image
                     src="/images/FotoMia1.jpg"
                     alt="hero-section"
                     layout="fill"
                     className={styles.heroImage}
-                  />
+                  /> */}
+                  <img src="images/FotoMia1.jpg" className={styles.heroImage} />
                 </div>
                 <div className={styles.flipCardBack}>
                   <div className={styles.content}>
