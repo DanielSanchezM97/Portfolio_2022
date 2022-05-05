@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700");
+
+$primary: #00bcd4;
+$secondary: #f0f2f5;
+
+#navbar {
+  background: #fff;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  height: 52px;
+
+  &:hover {
+    opacity: 1 !important;
+    background-color: lighten($secondary, 10%);
+  }
+
+  @media screen and (min-width: 600px) {
+    margin: 0 110px;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 0 25px;
+  }
+
+  @media screen and (max-width: 991px) {
+    height: auto;
+  }
+}
+
+#navContainer {
+  padding: 0 20px;
+
+  // @media screen and (min-width: 768px) {
+  // height: 40px;
+  // }
+}
+
+.highlight {
+  border-bottom: 1px solid #00bcd4;
+}
+
+#navItem {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+
+  @media screen and (min-width: 991px) {
+    &:hover {
+      border-bottom: 1px solid #00bcd4;
+      color: #00bcd4;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    &:hover {
+      color: #00bcd4;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    font-size: 12px;
+  }
+}
+
+#navBrand {
+  font-size: 12px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  color: #7b809a;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 20px;
+
+  @media screen and (max-width: 300px) {
+    font-size: 10px;
+  }
+}
+
+.navIcon {
+  @media screen and (max-width: 300px) {
+    font-size: 15px;
+    transform: translate(0, -2px);
+    -webkit-transform: translate(0, -2px);
+  }
+}

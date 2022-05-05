@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cambo&display=swap");
+
+.projectsContainer {
+  font-family: cambo, "times new roman", serif;
+  color: #333333;
+}
+
+.container__image {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 11px 12px 3px -6px rgba(13, 13, 13, 0.83);
+  -webkit-box-shadow: 11px 12px 3px -6px rgba(13, 13, 13, 0.83);
+  -moz-box-shadow: 11px 12px 3px -6px rgba(13, 13, 13, 0.83);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.project__title {
+  font-size: 23px;
+}
+
+.projectsImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}

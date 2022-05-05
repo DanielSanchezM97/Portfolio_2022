@@ -1,0 +1,83 @@
+$color_1: #8c8c8c;
+$color_2: #f1f1f1;
+$color_3: blue;
+$font-family_1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family_2: Helvetica, Arial, sans-serif;
+
+#social {
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+.footerTitles {
+  font-size: 25px;
+  color: $color_1;
+  font-family: $font-family_1;
+
+  @media screen and (max-width: 300px) {
+    font-size: 20px;
+  }
+}
+.footerLinks {
+  font-size: 15px;
+  text-decoration: none;
+  color: $color_2;
+  letter-spacing: 0.5px;
+  font-family: $font-family_2;
+
+  @media screen and (max-width: 300px) {
+    font-size: 12px;
+  }
+}
+.footerIcons {
+  height: 32px;
+  width: 32px;
+  margin-right: 20px;
+  color: $color_2;
+  &:hover {
+    color: $color_3;
+  }
+}
+.CodepenIcon {
+  height: 32px;
+  width: 32px;
+  margin-right: 20px;
+  color: $color_2;
+  padding: 0;
+  &:hover {
+    color: $color_3;
+  }
+}
+
+#copyText {
+  font-size: 17px;
+  color: $color_1;
+  text-align: center;
+  font-family: $font-family_1;
+
+  @media screen and (max-width: 300px) {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .footerIcons {
+    height: 27px;
+    width: 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #social {
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .footerIcons {
+    height: 24px;
+    width: 24px;
+  }
+  .CodepenIcon {
+    height: 24px;
+    width: 24px;
+  }
+}
