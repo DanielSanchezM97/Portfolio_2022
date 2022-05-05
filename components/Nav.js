@@ -59,13 +59,13 @@ const Nav = () => {
     } else if (
       window.innerWidth > 991 &&
       scrollPosition > 2500 &&
-      scrollPosition < 3300
+      scrollPosition < 3200
     ) {
       navSkills.current.classList.add(styles.highlight);
       navProjects.current.classList.remove(styles.highlight);
       navContact.current.classList.remove(styles.highlight);
       return;
-    } else if (window.innerWidth > 991 && scrollPosition > 3300) {
+    } else if (window.innerWidth > 991 && scrollPosition > 3200) {
       navContact.current.classList.add(styles.highlight);
       navSkills.current.classList.remove(styles.highlight);
       return;
