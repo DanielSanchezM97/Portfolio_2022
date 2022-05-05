@@ -21,6 +21,7 @@ const HeroSection = () => {
               <div className={styles.flipCardInner}>
                 <div className={styles.flipCardFront}>
                   <Image
+                    // src="/images/FotoMia1.jpg"
                     src="/images/FotoMia1.jpg"
                     alt="hero-section"
                     layout="fill"
