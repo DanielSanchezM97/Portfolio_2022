@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="row">
             {/* Contact */}
 
-            <div className="col-md-4 px-3">
+            <div className="col-md-4 px-sm-3 px-4">
               <span className={`my-2 ${styles.footerTitles}`}>Contact</span>
               <p>
                 <a
@@ -29,7 +29,7 @@ const Footer = () => {
 
             {/* About */}
 
-            <div className="col-md-4 px-3">
+            <div className="col-md-4 px-sm-3 px-4">
               <span className={`${styles.footerTitles}`}>About</span>
               <p>
                 <a
@@ -65,7 +65,10 @@ const Footer = () => {
 
             {/* Social */}
 
-            <div className="col-md-4 d-flex px-3" id={`${styles.social}`}>
+            <div
+              className="col-md-4 d-flex px-sm-3 px-4"
+              id={`${styles.social}`}
+            >
               <p>
                 <a
                   href="https://codepen.io/DaniSX97"
