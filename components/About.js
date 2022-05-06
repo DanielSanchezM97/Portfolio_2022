@@ -21,14 +21,18 @@ const About = () => {
           <h5 className={styles.AboutMeSubtitle}>Frontend Developer</h5>
           <p className={`my-3 px-3 ${styles.AboutMeParagraph}`}>
             Hello my name is <strong>Daniel Sanchez</strong> <br /> I was born
-            and raised in Costa Rica but moved to California when I turned 19
-            with my family. I am very passionate about art, dance and sports, I
-            also love to spend time with my family and I love modeling. I
-            started my modeling career at the age of 21 and since then I have
-            been attracted to how you can express the beauty and artistry of a
-            woman through modeling. Currently I have dedicated myself to travel
-            with my husband and at the same time work in what I am passionate
-            about knowing the beauty of each country and its beautiful people.
+            and raised in Costa Rica. At the age of 21 web design caught my
+            attention and at that moment I knew I wanted to dedicate myself to
+            this. I am passionate about web design, music and sports, I also
+            like to spend time with my family and to be able to enjoy the
+            outdoors. I started my web design career when I was 22 years old and
+            since then I am attracted to how beauty and art can be expressed
+            through web design, turning the user experience into a new and
+            satisfying experience with each design like the one I feel when I
+            see the amazing designs that leave you speechless. I am an
+            analytical, responsible person and a good problem solver. Currently
+            I have dedicated myself to learn new technologies and I am always
+            looking for new challenges to improve my skills.
           </p>
         </div>
       </div>

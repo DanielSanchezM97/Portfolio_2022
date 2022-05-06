@@ -53,6 +53,10 @@ $secondary: #f0f2f5;
   }
 
   @media screen and (max-width: 991px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
     &:hover {
       color: #00bcd4;
     }

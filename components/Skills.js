@@ -75,7 +75,7 @@ const Skills = () => {
           </section>
         </div>
         {/* ! SCSS Card */}
-        <div className={styles.skillCard} onClick="">
+        <div className={styles.skillCard} onClick={() => {}}>
           <header className={styles.skillCard__header} id={styles.scss}>
             <img
               className={styles.skillCard__icon}
@@ -109,7 +109,7 @@ const Skills = () => {
           </section>
         </div>
         {/* ! Bootstrap Card */}
-        <div className={styles.skillCard} onClick="">
+        <div className={styles.skillCard} onClick={() => {}}>
           <header className={styles.skillCard__header} id={styles.bootstrap}>
             <img
               className={styles.skillCard__icon}
@@ -139,7 +139,7 @@ const Skills = () => {
           </section>
         </div>
         {/* ! Javascript Card */}
-        <div className={styles.skillCard} onClick="">
+        <div className={styles.skillCard} onClick={() => {}}>
           <header className={styles.skillCard__header} id={styles.javascript}>
             <img
               className={styles.skillCard__icon}
@@ -173,7 +173,7 @@ const Skills = () => {
           </section>
         </div>
         {/* ! React Card */}
-        <div className={styles.skillCard} onClick="">
+        <div className={styles.skillCard} onClick={() => {}}>
           <header className={styles.skillCard__header} id={styles.react}>
             <img
               className={styles.skillCard__icon}
@@ -207,7 +207,7 @@ const Skills = () => {
           </section>
         </div>
         {/* ! NextJS Card */}
-        <div className={styles.skillCard} onClick="">
+        <div className={styles.skillCard} onClick={() => {}}>
           <header className={styles.skillCard__header} id={styles.NextJS}>
             <img
               className={styles.skillCard__icon}
