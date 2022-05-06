@@ -43,8 +43,9 @@ const Projects = () => {
                 <div className={`card card-blog ${styles.container__image}`}>
                   <a
                     target="_blank"
-                    href="examples/portfolio.html"
+                    href="https://codepen.io/DaniSX97/full/OJOeRmy"
                     className="header"
+                    rel="noopener noreferrer"
                   >
                     <img
                       src="images/randomQuoteImage.jpeg"
@@ -63,8 +64,9 @@ const Projects = () => {
                 <div className={`card card-blog ${styles.container__image}`}>
                   <a
                     target="_blank"
-                    href="examples/pricing.html"
+                    href="https://codepen.io/DaniSX97/full/NWXNQma"
                     className="header"
+                    rel="noopener noreferrer"
                   >
                     <img
                       src="images/calculatorImage.jpeg"
@@ -79,8 +81,9 @@ const Projects = () => {
                 <div className={`card card-blog ${styles.container__image}`}>
                   <a
                     target="_blank"
-                    href="examples/portfolio.html"
+                    href="https://musicplayerds.netlify.app/"
                     className="header"
+                    rel="noopener noreferrer"
                   >
                     <img
                       src="images/musicPlayerImage.jpeg"
@@ -95,8 +98,9 @@ const Projects = () => {
                 <div className={`card card-blog ${styles.container__image}`}>
                   <a
                     target="_blank"
-                    href="examples/blog-posts.html"
+                    href="https://codepen.io/DaniSX97/full/GRyJRop"
                     className="header"
+                    rel="noopener noreferrer"
                   >
                     <img
                       src="images/TimerImage.jpeg"
@@ -115,8 +119,9 @@ const Projects = () => {
                 <div className={`card card-blog ${styles.container__image}`}>
                   <a
                     target="_blank"
-                    href="examples/signin.html"
+                    href="https://danielsanchezportfolio.netlify.app/"
                     className="header"
+                    rel="noopener noreferrer"
                   >
                     <img
                       src="images/oldPortfolioImage.jpeg"
@@ -131,8 +136,9 @@ const Projects = () => {
                 <div className={`card card-blog ${styles.container__image}`}>
                   <a
                     target="_blank"
-                    href="examples/signup.html"
+                    href="https://codepen.io/DaniSX97/full/popodRO"
                     className="header"
+                    rel="noopener noreferrer"
                   >
                     <img
                       src="images/drumImage.jpeg"
