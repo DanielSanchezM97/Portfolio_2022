@@ -68,6 +68,14 @@ $font-family_2: Helvetica, Arial, sans-serif;
 }
 
 @media screen and (max-width: 768px) {
+  .footerTitles {
+    font-size: 20px;
+  }
+
+  .footerLinks {
+    font-size: 12px;
+  }
+
   #social {
     justify-content: start;
     align-items: flex-start;
