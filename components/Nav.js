@@ -21,7 +21,7 @@ const Nav = () => {
   const navContact = useRef(null);
 
   const handleOpacity = () => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 0 && !isOpen) {
       setOpacity(0.5);
     } else {
       setOpacity(1);
