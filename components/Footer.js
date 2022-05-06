@@ -5,7 +5,7 @@ import { GrCodepen } from "react-icons/gr";
 const Footer = () => {
   return (
     <div id="contact">
-      <footer className="footer bg-dark text-light pt-5 px-3">
+      <footer className="footer bg-dark text-light pt-sm-5 pt-4 px-3">
         <div>
           <div className="row">
             {/* Contact */}
