@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="footer bg-dark text-light pt-sm-5 pt-4 px-3">
         <div>
           <div className="row">
-            {/* Contact */}
+            {/* Contact Section */}
 
             <div className="col-md-4 px-sm-3 px-4">
               <span className={`my-2 ${styles.footerTitles}`}>Contact</span>
