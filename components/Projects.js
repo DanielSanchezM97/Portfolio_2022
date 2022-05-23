@@ -33,6 +33,7 @@ const Projects = () => {
                     <img
                       src="images/modelPageImage.jpeg"
                       className={`img-fluid ${styles.projectsImages}`}
+                      alt="model page"
                     />
                   </a>
                 </div>
@@ -50,6 +51,7 @@ const Projects = () => {
                     <img
                       src="images/randomQuoteImage.jpeg"
                       className={`img-fluid ${styles.projectsImages}`}
+                      alt="random quote"
                     />
                   </a>
                 </div>
@@ -71,6 +73,7 @@ const Projects = () => {
                     <img
                       src="images/calculatorImage.jpeg"
                       className={`img-fluid ${styles.projectsImages}`}
+                      alt="calculator"
                     />
                   </a>
                 </div>
@@ -88,6 +91,7 @@ const Projects = () => {
                     <img
                       src="images/musicPlayerImage.jpeg"
                       className={`img-fluid ${styles.projectsImages}`}
+                      alt="music player"
                     />
                   </a>
                 </div>
@@ -105,6 +109,7 @@ const Projects = () => {
                     <img
                       src="images/TimerImage.jpeg"
                       className={`img-fluid ${styles.projectsImages}`}
+                      alt="timer"
                     />
                   </a>
                 </div>
@@ -126,23 +131,25 @@ const Projects = () => {
                     <img
                       src="images/oldPortfolioImage.jpeg"
                       className={`img-fluid ${styles.projectsImages}`}
+                      alt="old portfolio"
                     />
                   </a>
                 </div>
                 <br />
                 <h3 className={`text-center ${styles.project__title}`}>
-                  Drum Machine
+                  E-commerce
                 </h3>
                 <div className={`card card-blog ${styles.container__image}`}>
                   <a
                     target="_blank"
-                    href="https://codepen.io/DaniSX97/full/popodRO"
+                    href="https://commerceds.netlify.app/"
                     className="header"
                     rel="noopener noreferrer"
                   >
                     <img
-                      src="images/drumImage.jpeg"
+                      src="images/CommerceDs.jpeg"
                       className={`img-fluid ${styles.projectsImages}`}
+                      alt="commerce"
                     />
                   </a>
                 </div>
